@@ -1,0 +1,20 @@
+{
+    "host":{
+        "host":"localhost",
+        "endpoint": "/dashboard"
+    },
+    "http_server":{
+        "port": 10101,
+        "logger_format": "combined"
+    },
+    "mysql":{
+        "timezone": "+08:00",
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "demoSLU"
+    },
+    "cookie":{
+        "secret": "cookiefordemoSLU"
+    }
+}
